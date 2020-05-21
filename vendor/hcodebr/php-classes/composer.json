@@ -1,0 +1,22 @@
+{
+    "name": "lukeconsultoria/105",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Classes PHP",
+    "homepage": "",
+    "authors": [
+        {
+            "name": "lukeconsultoria",
+            "email": "lukeconsultoria@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
